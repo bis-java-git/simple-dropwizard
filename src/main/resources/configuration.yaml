@@ -1,0 +1,19 @@
+messages:
+  hello: Hello world from Hemant!
+server:
+    applicationConnectors:
+      - type: https
+        port: 8443
+        keyStorePath: .\src\main\resources\certificates\keystore.jks
+        keyStorePassword: password
+        keyManagerPassword: password
+        trustStorePath: .\src\main\resources\certificates\truststore.ts
+        trustStorePassword: password
+        certAlias: bisserver
+      #  validateCerts: true
+        wantClientAuth: true
+logging:
+  appenders:
+    - type: console
+      threshold: WARN
+      target: stderr
