@@ -4,13 +4,16 @@ server:
     applicationConnectors:
       - type: https
         port: 8443
-        keyStorePath: .\src\main\resources\certificates\keystore.jks
+        keyStoreType: PKCS12
+        keyStorePath: .\src\main\resources\certificates\keyStore.p12
         keyStorePassword: password
         keyManagerPassword: password
-        trustStorePath: .\src\main\resources\certificates\truststore.ts
+        trustStoreType: PKCS12
+        trustStorePath: .\src\main\resources\certificates\trustStore.p12
         trustStorePassword: password
         certAlias: bisserver
-      #  validateCerts: true
+        keyManagerPassword: password
+        needClientAuth: true
         wantClientAuth: true
 logging:
   appenders:
