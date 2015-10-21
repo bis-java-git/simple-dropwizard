@@ -53,6 +53,8 @@ public class ExampleServiceTest {
        Response response = client.target("https://localhost:8443//hello").request().get();
         System.out.println("Response is "+ response.getStatus());
 
+        System.out.println("Response is "+ response.readEntity(String.class));
+
     }
 
     private KeyStore getKeyStoreWithClientCert() throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
