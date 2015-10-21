@@ -1,4 +1,4 @@
-package eu.kielczewski.example.resource;
+package com.bis.example.resource;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,7 +13,7 @@ public class ClasspathConfigurationSourceProvider implements io.dropwizard.confi
         InputStream resourceAsStream = ClasspathConfigurationSourceProvider.class.getClassLoader().getResourceAsStream(path);
 
         if (resourceAsStream == null) {
-            throw new IllegalArgumentException("could not find resource [path=" + path + "]");
+            throw new IllegalArgumentException("could not find com.bis.example.resource [path=" + path + "]");
         }
 
         return resourceAsStream;

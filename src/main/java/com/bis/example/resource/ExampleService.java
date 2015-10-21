@@ -1,10 +1,6 @@
-package eu.kielczewski.example;
+package com.bis.example.resource;
 
-import eu.kielczewski.example.config.ExampleServiceConfiguration;
-import eu.kielczewski.example.config.Messages;
-import eu.kielczewski.example.resource.ClasspathConfigurationSourceProvider;
-import eu.kielczewski.example.resource.HelloResource;
-import eu.kielczewski.example.resource.SystemAndEnvironmentPropertyInYamlBundle;
+import com.bis.example.config.ExampleServiceConfiguration;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;

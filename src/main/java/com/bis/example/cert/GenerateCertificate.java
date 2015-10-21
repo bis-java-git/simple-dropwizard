@@ -1,4 +1,4 @@
-package eu.kielczewski.example.cert;
+package com.bis.example.cert;
 
 import sun.security.tools.keytool.CertAndKeyGen;
 import sun.security.x509.X500Name;

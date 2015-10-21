@@ -1,4 +1,4 @@
-package eu.kielczewski.example.resource;
+package com.bis.example.resource;
 
 import io.dropwizard.Bundle;
 import io.dropwizard.setup.Bootstrap;

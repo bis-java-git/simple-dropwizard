@@ -1,6 +1,4 @@
-package eu.kielczewski.example.config;
-
-import io.dropwizard.Configuration;
+package com.bis.example.config;
 
 import javax.validation.constraints.NotNull;
 

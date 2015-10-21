@@ -1,4 +1,4 @@
-package eu.kielczewski.example.config;
+package com.bis.example.config;
 
 
 import io.dropwizard.Configuration;

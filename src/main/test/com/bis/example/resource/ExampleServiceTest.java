@@ -1,4 +1,4 @@
-package unit;
+package com.bis.example.resource;
 
 import org.apache.http.conn.ssl.NoopHostnameVerifier;
 import org.glassfish.jersey.SslConfigurator;

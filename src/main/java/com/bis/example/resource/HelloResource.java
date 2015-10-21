@@ -1,6 +1,6 @@
-package eu.kielczewski.example.resource;
+package com.bis.example.resource;
 
-import eu.kielczewski.example.config.Messages;
+import com.bis.example.config.Messages;
 
 import javax.inject.Singleton;
 import javax.ws.rs.GET;
